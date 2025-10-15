@@ -46,7 +46,7 @@ void main() {
             empleado2.mostrarSalarioAnual(empleado2.getPrimerNombre(), empleado2.getPrimerApellido(), empleado2.getSalarioMensual());
         }
 
-        System.out.println("Desea aumentar el salario de alguno?\n1. Si 1\n2. No");
+        System.out.println("Desea aumentar el salario de alguno?\n1. Si \n2. No");
         opcion2 = Integer.parseInt(sc.nextLine());
         if (opcion2 == 1) {
             System.out.println("De quién desea aumentar el salario mensual?\n1. " + empleado1.getPrimerNombre() + " " + empleado1.getPrimerApellido() + "\n2. " + empleado2.getPrimerNombre() + " " + empleado2.getPrimerApellido());
